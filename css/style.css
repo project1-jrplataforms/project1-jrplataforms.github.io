@@ -1,0 +1,203 @@
+/*Start of the smartphone/tablet screen*/ @media screen and (min-width: 0px) and (max-width: 1023px){
+
+html{
+     background: #fff;
+     display: flex;
+     justify-content: center;
+}
+
+html, body{
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     overflow: scroll;
+}
+
+body{
+     width: ;
+     display: flex;
+     flex-direction: column;
+     background: #0C0C0F;
+}
+
+.pageOffline{
+     display: none;
+}
+
+.allContent{
+     flex: 1 0 auto;
+}
+
+.welcomeLogo{
+     height: auto;
+     width: 55%;
+     margin-top: 50px;
+}
+
+.welcomeSlogan{
+     color: #909CA5;
+     margin-top: 10px;
+     font-size: 16px;
+     width: 80%;
+}
+
+.downloadArea{
+     margin-top: 50px;
+}
+
+.downloadArea>h2{
+     color: #FFF;
+     font-size: 16px;
+}
+
+/*Download buttons start*/
+     /*Start of Last version*/
+          .lastVersionDownload{
+               color: #FFF;
+               font-size: 14px;
+               text-decoration: none;
+               padding: 10px 0px;
+               border-radius: 3px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 250px;
+               margin-top: -5px;
+               background: #2E73FF;
+          }
+          
+          .lastVersionDownload:hover{
+               text-decoration: underline;
+          }
+     /*End of Last version*/
+     /*Start of Other Versions*/
+          .othersVersionsDownload{
+               color: #FFF;
+               font-size: 14px;
+               text-decoration: none;
+               padding: 10px 0px;
+               border-radius: 3px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 250px;
+               margin-top: 5px;
+               background: #25282C ;
+          }
+          
+          .othersVersionsDownload:hover{
+               text-decoration: underline;
+          }
+     /*End of Other versions*/
+/*Download buttons end*/
+
+.littleAbout{
+     margin-top: 70px;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: flex-start;
+}
+
+/*Start to informationsSite*/
+     /*Start to icons*/
+          .securityIcon, .updateIcon, .freeIcon{
+               height: 45px;
+               width: 45px;
+          }
+          
+          .securityIcon{
+               background: URL(https://lh3.googleusercontent.com/pw/AM-JKLV1bzY-PYyAKvZJZmf11THcBRkPtv87fBmXhaG4yRVNtzqLq6hcTCUMYVeNI3TQ2twRnHLe85RsjHeOQGmgi1eTqdGkcz0Ig_zhDbkH97pOiqTB0LF1hhgD-BgZqGxs8Gc3nUqGrREsn6GgaWUvUWU=s793-no);
+               background-size: cover;
+               background-color: #2E73FF;
+               border-radius: 50%;
+          }
+          
+          .updateIcon{
+               background: URL(https://lh3.googleusercontent.com/pw/AM-JKLUtXAb-APyAtD3cdsbz0Mv32k6RS-xmcrnaQQi3T0Zi1BumjG9CgXXuDv3UFY1SR6R8LKTRwtdOYNGB2wzH2OJ3HTTBW5By_dwKYi1e9Xkr1f1d_QWsa5h1MvRE4RBEkD43syaU6X2CDUNIRIreRG8=s793-no);
+               background-size: cover;
+               background-color: #2E73FF;
+               border-radius: 50%;
+          }
+          
+          .freeIcon{
+               background: URL(https://lh3.googleusercontent.com/pw/AM-JKLVG1ICRH9CWE8esmatQXxdX1oj25TCf0okFWiBLwIvzjOkFw0YrQZiZbfEpL80d9thY5btlT2p7Yn_N0yNJ64cUoE_szQL7PgR3wQwpoNZDoiRFs4bhNdhitFBkXQFLHEBuiWQKu3cnJhgPCQDoZjc=s793-no);
+               background-size: cover;
+               background-color: #2E73FF;
+               border-radius: 50%;
+          }
+     /*End to icons*/
+     
+     .quadro{
+          text-align: center;
+          background: ;
+          color: #FFF;
+          border-radius: 7px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          height: auto;
+          width: 250px;
+          margin: 5px;
+          padding: 10px;
+          /*text-align: center;*/
+          /*border: 1px solid #FFF;*/
+     }
+     
+     .nomeQuadro{
+          text-align: center;
+          margin-top: 10px;
+          font-size: 16px;
+          width: 90%;
+     }
+     
+     .textQuadro{
+          text-align: left;
+          color: #909CA5;
+          font-size: 14px;
+          width: 90%;
+          margin-top: 7px; 
+     }
+/*End to informationsSite*/
+
+footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+     margin-top: 100px;
+}
+
+.footerLogoJRX{
+     height: 30px;
+     width: 30px;
+     background: URL(https://lh3.googleusercontent.com/pw/AM-JKLXxMsFWM1nz5Gh04VHMrx3GR0L0kLQTH1ZXPV-lStMb2BdVUNTl0C-1b21xBeMbrXoUU-IcNdyhSeb80DGv5LlQVvM1_aHB_qsIOhZaOZBBeJYf5uYSxkK3JXmSuu5p0Gu2cUnhdc7AaBE8UkiknuVp=s793-no);
+     background-size: cover;
+}
+
+footer>p{
+     color: #B9B9B9;
+     width: 80%;
+     font-size: 11px;
+}
+
+footer>.p1{
+     margin-bottom: -5px;
+}
+
+footer>a{
+     text-decoration: none;
+     color: #B9B9B9;
+     font-size: 11px;
+}
+
+footer>a:hover{
+     text-decoration: underline;
+}
+
+}/*End of the smartphone/tablet screen*/
